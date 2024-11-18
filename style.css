@@ -1,0 +1,49 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center text horizontally */
+    display: flex; /* Use flexbox for vertical centering */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure content takes up full viewport height */
+}
+
+/* Other styles remain the same */
+
+header {
+    background-color: #98bbe8;
+    padding: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main section {
+    padding: 20px;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+img {
+    border-width: 400px;
+    border height: 600px;
